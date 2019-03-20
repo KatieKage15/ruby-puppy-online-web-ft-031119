@@ -9,7 +9,7 @@ class Dog
   gonzo = Dog.new("Gonzo")
 
   def initializes(name)
-  @name = name
+    @name = name
     @@all << self
   end
 
